@@ -1,0 +1,8 @@
+touch .env
+docker compose up
+npm run db:push
+npm i pg
+npm run db:studio
+
+npm install next-auth
+npm i @auth/drizzle-adapter
